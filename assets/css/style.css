@@ -1,5 +1,20 @@
+
 .header {
-    color: blueviolet;
+    background-color: silver;
+
+}
+
+.header h1 {
+    color: purple;
     font-size: x-large;
 }
+
+.header section {
+    float: right;
+    list-style: none;
+}
+
+
+
+
 
