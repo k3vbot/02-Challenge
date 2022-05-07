@@ -1,19 +1,61 @@
-
+/* header formatting*/
 .header {
+    padding: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: silver;
 
 }
-
+/* header size and color*/
 .header h1 {
-    color: purple;
-    font-size: x-large;
+    display: inline-block;
+    font-size: 50px;
+    color: dodgerblue;
+}
+/*header secondary color*/
+.header h1 .Muehlbauer {
+    color: gold;
 }
 
+/* nav bar formatting*/
 .header section {
+    padding-top: 15px;
+    margin-right: 20px;
     float: right;
-    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 
+.header section ul {
+    list-style-type: none;
+}
+
+.header section ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*banner*/
+.hero {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://image.shutterstock.com/image-photo/computer-source-code-programmer-script-260nw-370718609.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* formatting About section*/
+.about h2{
+    font-size: 30px;
+}
+
+.projects h2 {
+    font-size: 30px;
+}
+
+.contact h2{
+    font-size: 30px;
+}
 
 
 
