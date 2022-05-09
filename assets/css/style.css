@@ -3,10 +3,11 @@
     padding: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: silver;
+    text-align: center;
 
 }
 /* header size and color*/
-.header h1 {
+.header h1 {    
     display: inline-block;
     font-size: 50px;
     color: dodgerblue;
@@ -17,45 +18,96 @@
 }
 
 /* nav bar formatting*/
-.header section {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
 
-.header section ul {
-    list-style-type: none;
-}
-
-.header section ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
+nav {
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: center;
+  }
+  
+nav a {
+    color: silver;
+    padding: 20px 20px;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 25px;
+  }
 
 /*banner*/
 .hero {
-    height: 600px;
+    height: 300px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     background-image: url("https://image.shutterstock.com/image-photo/computer-source-code-programmer-script-260nw-370718609.jpg");
     background-size: cover;
     background-position: center;
 }
 
+
 /* formatting About section*/
 .about h2{
+    position: relative;
+    margin: -2.5rem 67rem 1.5rem 0;
+    padding: 4px;
     font-size: 30px;
+    background-color: green;
+    color: blue;
+    border-style: solid;
+    border-radius: 8px;
 }
 
+.about{
+    padding: 20px 10px;
+    border: 2px solid #bfbfbf;
+    background-color: aqua;
+    border-radius: 4px;
+    height: 100px;
+}
+
+/* formatting Projects Section*/
 .projects h2 {
+    position: relative;
+    margin: -3.5rem 64rem 0 -2rem;
+    padding: 4px;
     font-size: 30px;
+    background-color: green;
+    color: blue;
+    border: 2px solid;
+    border-radius: 8px;
+}
+.projects {
+    height: 150px;
+    padding: 40px 40px;
+    border: 2px solid #bfbfbf;
+    border-radius: 4px;
+    list-style-type: disc;
+    background-color: aqua;
 }
 
+
+/* formatting Contact Section*/
 .contact h2{
     font-size: 30px;
+    position: relative;
+    margin: -2.5rem 66rem 2rem 0;
+    padding: 4px;
+    background-color: green;
+    color: blue;
+    border: 2px solid;
+    border-radius: 8px;
 }
+.contact {
+    padding: 20px 10px;
+    border: 2px solid #bfbfbf;
+    border-radius: 4px;
+    background-color: aqua;
+    text-align: justify;
+}
+
+.contact li {
+    padding: 5px;
+}
+
 
 
 
