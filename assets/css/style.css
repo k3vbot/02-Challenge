@@ -1,3 +1,8 @@
+body {
+    background-color: silver;
+}
+
+
 /* header formatting*/
 .header {
     padding: 60px;
@@ -46,37 +51,50 @@ nav a {
 
 /* formatting About section*/
 .about h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     position: relative;
-    margin: -2.5rem 67rem 1.5rem 0;
+    margin: -2.5rem 67rem -1.2rem 1rem;
+    min-width: 200px;
     padding: 4px;
     font-size: 30px;
-    background-color: green;
+    background-color: gold;
     color: blue;
     border-style: solid;
     border-radius: 8px;
 }
 
-.about{
+.about p{
+    display: flex;
+    flex-direction: column;
     padding: 20px 10px;
     border: 2px solid #bfbfbf;
     background-color: aqua;
     border-radius: 4px;
-    height: 100px;
+    height: 200px;
+    min-width: 0;
 }
 
 /* formatting Projects Section*/
 .projects h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     position: relative;
-    margin: -3.5rem 64rem 0 -2rem;
+    margin: -2.5rem 67rem 1rem -2rem;
+    min-width: 200px;
     padding: 4px;
     font-size: 30px;
-    background-color: green;
+    background-color: gold;
     color: blue;
     border: 2px solid;
     border-radius: 8px;
 }
-.projects {
-    height: 150px;
+.projects{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
     padding: 40px 40px;
     border: 2px solid #bfbfbf;
     border-radius: 4px;
@@ -87,11 +105,15 @@ nav a {
 
 /* formatting Contact Section*/
 .contact h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     font-size: 30px;
     position: relative;
     margin: -2.5rem 66rem 2rem 0;
+    min-width: 200px;
     padding: 4px;
-    background-color: green;
+    background-color: gold;
     color: blue;
     border: 2px solid;
     border-radius: 8px;
@@ -107,8 +129,3 @@ nav a {
 .contact li {
     padding: 5px;
 }
-
-
-
-
-
